@@ -1,0 +1,14 @@
+﻿<Window x:Class="Vorobev419K.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vorobev419K"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="UserName" TextChanged="TextBox_TextChanged" Margin="236,81,275,280" />
+        <TextBox x:Name="UserFirstName" Margin="236,177,275,183" TextChanged="UserFirstName_TextChanged"/>
+        <TextBox x:Name="Email" Margin="236,269,275,94" TextChanged="TextBox_TextChanged_1"/>
+    </Grid>
+</Window>
